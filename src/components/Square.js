@@ -34,6 +34,7 @@ const Square = ({number}) => {
   console.log(number)
   const randomNumbers = () => {
     setStateSquare((Math.round (Math.random()*100))+parseInt(stateSquare))
+    console.log("the state was changed")
     
   }
   return (
